@@ -1,0 +1,23 @@
+.clip {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    /*background: #fc0; !* Цвет фона *!*/
+    padding: 5px; /* Поля вокруг текста */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.size {
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    /*background: #fc0; !* Цвет фона *!*/
+    padding: 5px; /* Поля */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.clips{
+    overflow: hidden;
+    /*overflow-x: hidden;*/
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
